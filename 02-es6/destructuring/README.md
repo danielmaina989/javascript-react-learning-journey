@@ -1,0 +1,1 @@
+Destructuring arrays allows you to extract multiple values from an array and assign them to variables in a clean, readable syntax. This is especially useful when working with ordered data.
