@@ -74,3 +74,21 @@ console.log(secondFruit); // expected: 'banana'
 console.log(thirdFruit);  // expected: 'cherry'
 
 
+const chocolateCake = {
+    ingredients: ["chocolate", "flour", "sugar", "eggs", "water"],
+    isVegan: false,
+    calories: 594,
+    feeds: 8,
+    tag: "child-friendly"
+};
+
+var destructureChocolateCake = function()
+{
+    const { ingredients, isVegan, calories, feeds, tag } = chocolateCake;
+    // Write your code here
+    console.log(isVegan,calories);
+    
+
+}
+
+
